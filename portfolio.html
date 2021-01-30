@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <div class="desktop-nav">
+      <nav>
+        <ul>
+          <img id="logo" src="./images/logo.png" alt="logo">
+          <li> <a href="./index.html">Home</a> </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a
+              href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+          </li>
+
+          <li><a href="./skills.html">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <span id='open-button' class="open-button" onclick='openMobileNav()'>&#9776;</span>
+
+  <div class="mobilenav" id="mobilenav">
+    <a href="javascript:void(0)" class="close" onclick='closeMobileNav()'>&times;</a>
+    <div class="mobilelogocontainer">
+      <img id="logo" src="./images/logo.png" alt="logo">
+    </div>
+    <li> <a href="./index.html">Home</a> </li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a
+        href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+    </li>
+
+    <li><a href="./skills.html">Skills</a></li>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-4">
+        <h1 style='text-align:center;' id="headingtictactoe"><a href="https://kiefergallant.github.io/tictactoe/">Tic
+            Tac Toe</a></h1>
+      </div>
+
+      <div class="col-8">
+        <p id="paratictactoe">I used HTML tables, JavaScript event listeners and loops to do this project.I used a table
+          to get the squares for the board and I used event listeners to listen to when the square is clicked it will
+          change to a X then when it is clicked again it will become an O.</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-4">
+        <h1><a style='text-align:center;' href="https://kiefergallant.github.io/colorgenerator/">Random Color
+            Generator</a></h1>
+      </div>
+
+      <div class="col-8 ">
+        <p id="pararandomcolor">For this project I used a random color generator CDN and a if else if else loop. I used
+          divs to contain the colors and a dropdown menu and a submit button to select the colors.This generator will
+          pick random colors within the color that you pick</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-4">
+        <h1 id="quizheader" style='text-align:center;'> <a href="https://kiefergallant.github.io/Quiz/">Quiz</a> </h1>
+      </div>
+
+      <div class="col-8">
+        <p id="paraquiz">I used lots of forms for this project. For the functionality I used JavaScript functions for
+          each question to check if they were correct or not and functions to hide the questions that have been already
+          answered and finally I used an alert to notify your quiz score.</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <h1 id="lyricheader" style='text-align:center;'> <a href="https://kiefergallant.github.io/LyricMachine/">Lyric
+            Finder</a> </h1>
+      </div>
+
+      <div class="col-8">
+
+        <p id="paralyric">I used a lyric API for this project to fetch the lyrics of the song.I stored the values from
+          the artist and song form in JavaScript variables and concatenated them onto the Song URL and then returned the
+          response using response.json()</p>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <h1 id="quoteheader" style='text-align:center;'> <a href="https://kiefergallant.github.io/QuoteMachine/">Quote
+            Machine</a> </h1>
+      </div>
+
+      <div class="col-8">
+
+        <p id="paraquote">The quotes for the Quote Machine were stored in an JavaScript array and I used a counter and a
+          forward function that would add one to the counter everytime you pressed the forward button and it would
+          subtract one from the counter when you clicked the back button. I also used JavaScript's setInterval function
+          so the quote would change automatically every 30 seconds. </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <div class="container">
+    <footer>
+      <hr>
+      <div class="footercontainer">
+        <a href="https://github.com/kiefergallant"><i id='githublink' class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kiefer-gallant-643509132/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      </div>
+    </footer>
+  </div>
+
+  <div id="privacypolicy" class="container">
+    <p> <a href="./privacy.html">Privacy Policy</a> </p>
+  </div>
+
+  <script src="./scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

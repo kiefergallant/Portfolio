@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>About</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <div class="desktop-nav">
+      <nav>
+        <ul>
+          <img id="logo" src="./images/logo.png" alt="logo">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a
+              href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+          </li>
+
+          <li><a href="./skills.html">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <span id='open-button' class="open-button" onclick='openMobileNav()'>&#9776;</span>
+  <div class="mobilenav" id="mobilenav">
+    <a href="javascript:void(0)" class="close" onclick='closeMobileNav()'>&times;</a>
+    <div class="mobilelogocontainer">
+      <img id="logo" src="./images/logo.png" alt="logo">
+    </div>
+    <li> <a href="./index.html">Home</a> </li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a
+        href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+    </li>
+
+    <li><a href="./skills.html">Skills</a></li>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+
+      </div>
+      <div class="col-4 ">
+        <div class="aboutpiccontainer">
+
+
+          <img id="aboutpic" src="./images/about.png" alt="picture of kiefer snowboarding">
+        </div>
+        <h4 style="text-align:center;">Kiefer Gallant</h4>
+      </div>
+      <div class="col-4">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container firstcontainer">
+    <div class="row">
+      <div class="col-6">
+        <h1 style="text-align:center;">Biography</h1>
+        <p>I was born in Calgary in 1996 but shortly after we moved to the small town of Bashaw AB where we lived until
+          I was is grade 5. We moved to the Hinton after Bashaw, a big change since we were now minutes away from the
+          Rocky Mountains. My 2 brothers and I spend most of our free time in Hinton snowboarding, hiking , rockclimbing
+          and dirtbiking. After highschool I started working in the oilfield and at a pulp/sawmill in Hinton.Before
+          coming to Calgary I taught myself web development using online resources and Udemy Courses</p>
+      </div>
+      <div class="col-6">
+        <h1 style="text-align:center;">Interests</h1>
+        <p>I enjoy the outdoors so most of my intrests other than programming and video games are outdoors. I enjoy
+          fly-fishing, rockclimbing, snowboarding, hiking and kayaking. My interests include backend and front end web
+          development. With languages such as
+          HTML ,CSS , SASS, JS , jQuery , PHP , Python , Wordpress, Shopify , Boostrap and Adobe Photoshop </p>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <hr>
+      <div class="footercontainer">
+        <a href="https://github.com/kiefergallant"><i id='githublink' class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kiefer-gallant-643509132/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="privacypolicy" class="container">
+    <p> <a href="./privacy.html">Privacy Policy</a> </p>
+  </div>
+
+
+
+
+
+  <script src="./scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

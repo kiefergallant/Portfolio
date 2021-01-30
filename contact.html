@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+
+  <header>
+    <div class="desktop-nav">
+      <nav>
+        <ul>
+          <img id="logo" src="./images/logo.png" alt="logo">
+          <li> <a href="./index.html">Home</a> </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a
+              href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+          </li>
+
+          <li><a href="./skills.html">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <span id='open-button' class="open-button" onclick='openMobileNav()'>&#9776;</span>
+  <div class="mobilenav" id="mobilenav">
+    <a href="javascript:void(0)" class="close" onclick='closeMobileNav()'>&times;</a>
+    <img id="logo" src="./images/logo.png" alt="logo">
+    <li> <a href="./index.html">Home</a> </li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a href='https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing'></a>
+    </li>
+    <li><a href="./skills.html">Skills</a></li>
+  </div>
+
+  <form class="contactform" action="./send.php" method="post">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-3">
+          <input type="text" name="name" value="Your Name">
+        </div>
+        <div class="col-4"></div>
+        <br>
+        <br>
+      </div>
+
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-3">
+          <input type="tel" name="phone" value="Your Phone">
+        </div>
+        <div class="col-4"></div>
+        <br>
+        <br>
+      </div>
+
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-3">
+          <input type="email" name="email" value="Your Email">
+        </div>
+        <div class="col-4"></div>
+        <br>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2 ">
+          <textarea name="message" rows="8" cols="80">Questions, Comments , Concerns</textarea>
+        </div>
+        <div class="col-7"></div>
+        <br>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-4">
+          <input id="submit" type="submit" name="submit" value="Submit">
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </form>
+  <div id="map" class="container">
+
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40117.59900029506!2d-114.07013110641688!3d51.065089966178626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSAIT!5e0!3m2!1sen!2sca!4v1555544070004!5m2!1sen!2sca"
+      width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <footer>
+      <hr>
+      <div class="footercontainer">
+        <a href="https://github.com/kiefergallant"><i id='githublink' class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kiefer-gallant-643509132/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <div id="privacypolicy" class="container">
+    <p> <a href="./privacy.html">Privacy Policy</a> </p>
+  </div>
+
+
+
+
+
+  <script src="./scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

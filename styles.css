@@ -1,0 +1,285 @@
+body,html {
+  margin: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  background: #000;
+}
+ul {
+  margin: 10px auto 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: auto;
+  text-align: center;
+}
+li {
+  position: relative;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+#logo{
+  height: auto;
+  width: auto;
+  max-width: 80px;
+  max-height: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#aboutpic{
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.aboutpiccontainer{
+  display: flex;
+  justify-content: center;
+}
+
+#codepic{
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.flexcontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.flexcontainer2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#indexpara{
+  font-size: 2.0em;
+}
+
+#html5{
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#css3{
+  height: auto;
+  width: auto;
+  max-width: 170px;
+  max-height: 170px;
+}
+
+#sass{
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#boostrap{
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+#javascript{
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#mysql{
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#python{
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#php{
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#github{
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.logocontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p,h1,h2,h3,h4,h5{
+  color: white;
+}
+
+.footercontainer{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+i{
+  font-size: 6.0em;
+  color:white;
+}
+
+#paratictactoe{
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#headingtictactoe{
+  margin-left: 40px;
+}
+
+#pararandomcolor{
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+#quizheader{
+  margin-left: 40px;
+}
+
+#paraquiz{
+  margin-left: 20px;
+}
+
+#lyricheader{
+  margin-left: 40px;
+}
+
+#paralyric{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+#quoteheader{
+  margin-left: 27px;
+}
+
+#paraquote{
+  margin-left: 20px;
+}
+
+#privacypolicy{
+  display: flex;
+  justify-content: center;
+}
+.open-button{
+  color:white;
+  font-size: 30px;
+  display: none;
+  margin:1em 0 0 1em;
+  z-index: 1000;
+  justify-content: center;
+}
+
+.mobilenav{
+  width: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  z-index:100;
+  position: fixed;
+  background: #373F51;
+  opacity: 0.9;
+  transition: 0.5s;
+  display: block;
+
+}
+
+.mobilenav a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding-top:1em;
+  padding-bottom: 1em;
+  clear:left;
+  display: block;
+}
+
+.close{
+  float: left;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+/*MEDIA QUERIES START */
+@media screen and (max-width:700px) {
+
+  .desktop-nav{
+    display:none;
+  }
+
+  .open-button{
+    display:flex;
+    justify-content: center;
+    margin-right: 25px;
+  }
+
+}
+
+.mobilelogocontainer{
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top:20px;
+}
+
+#submit{
+  margin-left: 100px;
+}
+
+#map{
+  display: flex;
+  justify-content: center;
+}

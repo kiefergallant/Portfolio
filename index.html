@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <div class="desktop-nav">
+      <nav>
+        <ul>
+          <img id="logo" src="./images/logo.png" alt="logo">
+          <li> <a href="./index.html">Home</a> </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a
+              href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+          </li>
+
+          <li><a href="./skills.html">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <span id='open-button' class="open-button" onclick='openMobileNav()'>&#9776;</span>
+  <div class="mobilenav" id="mobilenav">
+    <a href="javascript:void(0)" class="close" onclick='closeMobileNav()'>&times;</a>
+    <div class="mobilelogocontainer">
+      <img id="logo" src="./images/logo.png" alt="logo">
+    </div>
+    <li> <a href="./index.html">Home</a> </li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a
+        href="https://docs.google.com/document/d/1K38RNHQr5XOUgVIcFHOR-mCFjuYY5F0oMQh9GBFGUTw/edit?usp=sharing">Resume</a>
+    </li>
+
+    <li><a href="./skills.html">Skills</a></li>
+  </div>
+
+
+  <div class="flexcontainer2">
+    <h1>Kiefer Gallant</h1>
+  </div>
+  <div class="flexcontainer2">
+    <p id="indexpara">I am a Canadian Web Designer and Developer focused in front-end and back-end technologies.</p>
+  </div>
+  <div class="flexcontainer container">
+    <img style="text-align:center;" id="codepic" src="./images/index.jpg" alt="picture of code">
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+
+
+    <footer>
+      <hr>
+      <div class="footercontainer">
+        <a href="https://github.com/kiefergallant"><i id='githublink' class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kiefer-gallant-643509132/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      </div>
+    </footer>
+
+  </div>
+
+  <div id="privacypolicy" class="container">
+    <p> <a href="./privacy.html">Privacy Policy</a> </p>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="./scripts.js" charset="utf-8"></script>
+</body>
+
+</html>
